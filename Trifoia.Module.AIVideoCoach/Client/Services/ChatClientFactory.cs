@@ -37,15 +37,15 @@ namespace Trifoia.Module.AIVideoCoach.Services
 
             var client = (settings[AIVideoCoachCredentials.AIHost] ?? "local").ToLower();
 
-            //if (client == "local")  
-            //{
-            //    var endpoint = settings[AIVideoCoachCredentials.LOCAL_ENDPOINT]
-            //                   ?? throw new Exception("Missing configuration LOCAL_ENDPOINT");
-            //    var modelName = settings[AIVideoCoachCredentials.LOCAL_MODEL_NAME]
-            //                    ?? throw new Exception("Missing configuration LOCAL_MODEL_NAME");
-            //    return new OllamaChatClient(endpoint, modelName);
-            //}
-             if (client == "openai")
+            if (client == "local")
+            {
+                var endpoint = settings[AIVideoCoachCredentials.LOCAL_ENDPOINT]
+                               ?? throw new Exception("Missing configuration LOCAL_ENDPOINT");
+                var modelName = settings[AIVideoCoachCredentials.LOCAL_MODEL_NAME]
+                                ?? throw new Exception("Missing configuration LOCAL_MODEL_NAME");
+                return new OllamaChatClient(endpoint, modelName);
+            }
+            if (client == "openai")
             {
                 var apiKey = settings[AIVideoCoachCredentials.OPENAI_KEY]
                              ?? throw new Exception("Missing configuration OPENAI_KEY");
