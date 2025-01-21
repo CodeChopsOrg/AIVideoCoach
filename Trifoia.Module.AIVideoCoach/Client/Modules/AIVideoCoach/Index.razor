@@ -1,9 +1,20 @@
 @namespace Trifoia.Module.AIVideoCoach
 @inherits ModuleBase
-
+@using MudBlazor
 
 @inject IJSRuntime JsOp
 @attribute [StreamRendering(true)] // Enables stream rendering for the component
+
+
+@* Required *@
+<MudThemeProvider />
+<MudPopoverProvider />
+
+@* Needed for dialogs *@
+<MudDialogProvider />
+
+@* Needed for snackbars *@
+<MudSnackbarProvider />
 
 
 @if (PageState.EditMode)

@@ -1,45 +1,51 @@
+/* Chat container styles */
 .chat {
     display: flex;
     flex-direction: column;
     height: calc(100vh - 175px);
 }
 
+/* Chat container height adjustment for smaller screens */
 @media (max-width: 1200px) {
     .chat {
         height: calc(100vh - 225px);
     }
 }
 
+/* Messages scroller styles */
 .chat .messages-scroller {
-        /* Make the scrollbar default to being at the end, instead of the start */
-        display: flex;
-        height: 100%;
-        flex-direction: column-reverse;
-        overflow-y: auto;
-        flex-grow: 1;
-    }
+    /* Make the scrollbar default to being at the end, instead of the start */
+    display: flex;
+    height: 100%;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    flex-grow: 1;
+}
 
-    .chat .messages {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem 1.5rem 0 0.75rem;
-        gap: 1rem;
-        align-items: flex-start;
-        margin-bottom: auto;
-    }
+/* Messages container styles */
+.chat .messages {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem 0 0.75rem;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: auto;
+}
 
-    .chat .write-message {
-        height: 20vh;
-        min-height: 3rem;
-        flex-shrink: 0;
-        margin: 0.5rem 1rem 1.5rem 1rem;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        align-items: center;
-    }
+/* Write message input area */
+.chat .write-message {
+    height: 20vh;
+    min-height: 3rem;
+    flex-shrink: 0;
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
 
+/* Styles for the textarea inside write-message */
 .write-message textarea {
     width: 100%;
     height: 80%;
@@ -48,6 +54,7 @@
     --focus-stroke-width: 0;
 }
 
+/* General message bubble styles */
 .message {
     border-radius: 16px;
     max-width: 70%;
@@ -55,12 +62,13 @@
     transition: all 0.2s ease-in-out;
 }
 
-
+    /* Streaming message animation */
     .message.streaming {
         animation: message-pulse 5s ease-in-out reverse infinite;
         border: solid 2px red;
     }
 
+/* Keyframes for message pulse animation */
 @keyframes message-pulse {
     0% {
         border: solid 2px white;
@@ -95,37 +103,43 @@
     }
 }
 
-
+/* Message initials styling */
 .message ::deep .initials {
     background-color: grey;
 }
 
+/* Assistant message-specific initials */
 .message.assistant ::deep .initials {
     background-color: #d800b1;
 }
 
+/* Hide assistant messages when not visible */
 .message.assistant:not(.visible) {
     display: none;
 }
 
+/* Assistant message bubble styles */
 .assistant {
     background-color: #f5f5f5;
     color: #424242;
     align-self: flex-start;
 }
 
+/* Sender bubble styles */
 .sender {
     background: white;
     border: solid 3px lightblue;
     border-radius: 1rem;
 }
 
+/* Sender icon styles */
 .sender-icon {
     vertical-align: top;
     align-self: center;
     justify-self: center;
 }
 
+    /* Sender icon image styling */
     .sender-icon ::deep img {
         border-radius: 5px;
         width: 128px !important;
@@ -133,6 +147,7 @@
         object-fit: cover;
     }
 
+/* Sender name styling */
 .sender-name {
     font-size: 1rem;
     font-weight: 600;
@@ -142,23 +157,24 @@
     text-align: center;
 }
 
-.message-content {
-}
-
+/* Message text styling */
 .message-text {
     white-space: pre-line;
     word-break: break-word;
 }
 
+/* Search info styling */
 .search-info {
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
+    /* Add a prefix to search info */
     .search-info:before {
         content: 'Searching: ';
     }
 
+/* Reference link container styles */
 .reference-link {
     display: flex;
     text-decoration: none;
@@ -168,6 +184,7 @@
     margin-top: 1rem;
 }
 
+    /* Text inside the reference link */
     .reference-link .ref-text {
         display: -webkit-box;
         overflow: hidden;
@@ -176,6 +193,7 @@
         -webkit-box-orient: vertical;
     }
 
+    /* Reference link icon styles */
     .reference-link svg {
         color: var(--neutral-foreground-rest);
         width: var(--type-ramp-base-line-height);
@@ -185,17 +203,21 @@
         margin-right: 0.4rem;
     }
 
+/* Use as reply button styling */
 ::deep .use-as-reply {
     margin-top: 0.8rem;
     text-align: center;
 }
 
+/* Thumbnail image styles */
 img.thumb {
     width: 256px;
     height: 256px;
     -o-object-fit: cover;
     object-fit: cover;
 }
+
+/* User message bubble styles */
 .user {
     background-color: #e3f2fd;
     color: #0d47a1;
@@ -203,8 +225,7 @@ img.thumb {
     margin-left: auto; /* Push the user bubble to the opposite side */
 }
 
-.user .message-text {
-    text-align: left; /* Ensure text starts from the left */
-}
-
-
+    /* Ensure user message text alignment */
+    .user .message-text {
+        text-align: left; /* Ensure text starts from the left */
+    }
