@@ -1,6 +1,6 @@
 [submodule "oqtane.framework"]
 	path = oqtane.framework
-	url = https://github.com/Trifoia/oqtane.framework.git
+	url = https://github.com/CodeChopsOrg/oqtane.framework.git
 	branch = release/v6.0.0
 	ignore = all
 
