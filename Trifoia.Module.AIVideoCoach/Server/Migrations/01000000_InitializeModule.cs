@@ -5,7 +5,7 @@ using Oqtane.Migrations;
 using Trifoia.Module.AIVideoCoach.Migrations.EntityBuilders;
 using Trifoia.Module.AIVideoCoach.Repository;
 
-namespace Trifoia.Module.AIVideoCoach.Migrations
+namespace CodeChops.Module.AIVideoCoach.Migrations
 {
     [DbContext(typeof(AIVideoCoachContext))]
     [Migration("Trifoia.Module.AIVideoCoach.01.00.00.00")]

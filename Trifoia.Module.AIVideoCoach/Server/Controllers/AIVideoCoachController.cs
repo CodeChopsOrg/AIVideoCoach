@@ -14,7 +14,7 @@ using Trifoia.Module.AIVideoCoach.Models;
 using Trifoia.Module.AIVideoCoach.Services;
 using System.Linq;
 
-namespace Trifoia.Module.AIVideoCoach.Controllers;
+namespace CodeChops.Module.AIVideoCoach.Controllers;
 
 [Route(ControllerRoutes.ApiRoute)]
 public class AIVideoCoachController : ModuleControllerBase

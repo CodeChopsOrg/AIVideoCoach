@@ -9,14 +9,14 @@ using Azure;
 using Azure.Identity;
 using System.ClientModel;
 using OpenAI.Embeddings;
-using Trifoia.Module.AIVideoCoach.Services;
+using CodeChops.Module.AIVideoCoach.Services;
 using Oqtane.Shared;
 using Oqtane.Repository;
-using Trifoia.Module.AIVideoCoach.Shared.Enums;
+using CodeChops.Module.AIVideoCoach.Shared.Enums;
 using Oqtane.Services;
 
 
-namespace Trifoia.Module.AIVideoCoach.Extensions
+namespace CodeChops.Module.AIVideoCoach.Extensions
 {
     public static class ServiceConfigurationExtensions
     {

@@ -5,7 +5,7 @@ using Oqtane.Repository;
 using Oqtane.Infrastructure;
 using Oqtane.Repository.Databases.Interfaces;
 
-namespace Trifoia.Module.AIVideoCoach.Repository
+namespace CodeChops.Module.AIVideoCoach.Repository
 {
     public class AIVideoCoachContext : DBContextBase, ITransientService, IMultiDatabase
     {

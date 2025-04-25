@@ -6,12 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Trifoia.Module.AIVideoCoach.Services;
-using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
-using Trifoia.Module.AIVideoCoach.Shared.Enums;
+using CodeChops.Module.AIVideoCoach.Services;
+using CodeChops.Module.AIVideoCoach.Shared.Interfaces;
+using CodeChops.Module.AIVideoCoach.Shared.Enums;
 
 
-namespace Trifoia.Module.AIVideoCoach.Server.Services
+namespace CodeChops.Module.AIVideoCoach.Server.Services
 {
     public class EmbeddingClientFactory : IChatClientFactory<IEmbeddingClient>
     {

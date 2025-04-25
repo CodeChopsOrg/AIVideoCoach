@@ -1,3 +1,4 @@
+using CodeChops.Module.AIVideoCoach.Shared.Enums;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Microsoft.EntityFrameworkCore.Migrations.Operations.Builders;
@@ -5,7 +6,7 @@ using Oqtane.Databases.Interfaces;
 using Oqtane.Migrations;
 using Oqtane.Migrations.EntityBuilders;
 
-namespace Trifoia.Module.AIVideoCoach.Migrations.EntityBuilders
+namespace CodeChops.Module.AIVideoCoach.Migrations.EntityBuilders
 {
     public class AIVideoCoachEntityBuilder : AuditableBaseEntityBuilder<AIVideoCoachEntityBuilder>
     {

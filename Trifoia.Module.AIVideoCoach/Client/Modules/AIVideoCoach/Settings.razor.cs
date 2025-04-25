@@ -16,7 +16,7 @@ using System.IO.Enumeration;
 using Trifoia.Module.AIVideoCoach;
 
 
-namespace Trifoia.Module.AIVideoCoach
+namespace CodeChops.Module.AIVideoCoach
 {
     public partial class Settings : ModuleBase
     {

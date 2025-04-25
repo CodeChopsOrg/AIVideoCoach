@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Oqtane.Modules;
 using Oqtane.Shared;
 using System.Net;
-using Trifoia.Module.AIVideoCoach.Models;
 using Microsoft.Extensions.AI;
 using System;
 using System.Text;
-using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
+using CodeChops.Module.AIVideoCoach.Models;
+using CodeChops.Module.AIVideoCoach.Shared.Interfaces;
 using Oqtane.Services;
 
 
 
-namespace Trifoia.Module.AIVideoCoach.Services
+namespace CodeChops.Module.AIVideoCoach.Services
 {
     public class AIVideoCoachService : ResponseServiceBase, IService
     {

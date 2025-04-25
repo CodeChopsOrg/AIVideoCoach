@@ -14,7 +14,7 @@ using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
 
 
 
-namespace Trifoia.Module.AIVideoCoach.Services
+namespace CodeChops.Module.AIVideoCoach.Services
 {
     public class AIVideoCoachServerService : IAIVideoCoachServerService, ITransientService
     {

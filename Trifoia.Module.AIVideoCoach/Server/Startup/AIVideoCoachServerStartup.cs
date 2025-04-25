@@ -14,7 +14,7 @@ using Microsoft.Extensions.AI;
 using Trifoia.Module.AIVideoCoach.Server.Services;
 using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
 
-namespace Trifoia.Module.AIVideoCoach.Startup
+namespace CodeChops.Module.AIVideoCoach.Startup
 {
     public class AIVideoCoachServerStartup : IServerStartup
     {

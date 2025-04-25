@@ -11,7 +11,7 @@ using System.Net.Http.Json;
 using Trifoia.Module.AIVideoCoach.Models;
 using Oqtane.Services;
 
-namespace Trifoia.Module.AIVideoCoach.Services
+namespace CodeChops.Module.AIVideoCoach.Services
 {
     using Oqtane.Repository;
     using Oqtane.Shared;

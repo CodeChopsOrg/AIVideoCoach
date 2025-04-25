@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Trifoia.Module.AIVideoCoach.Models;
 using System;
 
-namespace Trifoia.Module.AIVideoCoach.Repository
+namespace CodeChops.Module.AIVideoCoach.Repository
 {
     public class AIVideoCoachRepository : ITransientService
     {
