@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Trifoia.Module.AIVideoCoach.Models;
 
-namespace Trifoia.Module.AIVideoCoach
+namespace CodeChops.Module.AIVideoCoach
 {
     public partial class ChatMessage
     {

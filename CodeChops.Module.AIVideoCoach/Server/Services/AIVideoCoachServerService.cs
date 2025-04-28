@@ -7,12 +7,10 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Oqtane.Modules;
-using Trifoia.Module.AIVideoCoach.Models;
-using Trifoia.Module.AIVideoCoach.Repository;
-using Trifoia.Module.AIVideoCoach.Services;
-using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
-
-
+using CodeChops.Module.AIVideoCoach.Models;
+using CodeChops.Module.AIVideoCoach.Repository;
+using CodeChops.Module.AIVideoCoach.Services;
+using CodeChops.Module.AIVideoCoach.Shared.Interfaces;
 
 namespace CodeChops.Module.AIVideoCoach.Services
 {

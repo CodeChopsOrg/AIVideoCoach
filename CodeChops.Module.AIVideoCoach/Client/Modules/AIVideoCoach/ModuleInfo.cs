@@ -3,7 +3,7 @@ using Oqtane.Modules;
 using Oqtane.Shared;
 using System.Collections.Generic;
 
-namespace Trifoia.Module.AIVideoCoach
+namespace CodeChops.Module.AIVideoCoach
 {
     public class ModuleInfo : IModule
     {

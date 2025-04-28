@@ -4,6 +4,12 @@
     <TargetFramework>net9.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <AccelerateBuildsInVisualStudio>false</AccelerateBuildsInVisualStudio>
+    <Authors>CodeChops</Authors>
+    <Company>CodeChops</Company>
+    <Description>Open source edition of the CodeChops AI Video Coach Oqtane Module</Description>
+    <Product>CodeChops.AIVideoCoach</Product>
+    <Copyright>CodeChops</Copyright>
+    <AssemblyName>CodeChops.Module.AIVideoCoach.Package.Oqtane</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,9 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\Trifoia.Module.AIVideoCoach.Client.csproj" />
-    <ProjectReference Include="..\Server\Trifoia.Module.AIVideoCoach.Server.csproj" />
-    <ProjectReference Include="..\Shared\Trifoia.Module.AIVideoCoach.Shared.csproj" />
+    <ProjectReference Include="..\Client\CodeChops.Module.AIVideoCoach.Client.csproj" />
+    <ProjectReference Include="..\Server\CodeChops.Module.AIVideoCoach.Server.csproj" />
+    <ProjectReference Include="..\Shared\CodeChops.Module.AIVideoCoach.Shared.csproj" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

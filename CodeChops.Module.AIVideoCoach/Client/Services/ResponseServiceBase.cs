@@ -10,7 +10,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Trifoia.Module.AIVideoCoach.Services
+namespace CodeChops.Module.AIVideoCoach.Services
 {
     public  partial class ResponseServiceBase : ServiceBase
     {

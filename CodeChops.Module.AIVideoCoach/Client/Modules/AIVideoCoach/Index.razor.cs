@@ -19,7 +19,7 @@ using Trifoia.Module.AIVideoCoach;
 using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
 using Microsoft.Extensions.AI;
 
-namespace Trifoia.Module.AIVideoCoach;
+namespace CodeChops.Module.AIVideoCoach;
 
 public partial class Index : ModuleBase
 {

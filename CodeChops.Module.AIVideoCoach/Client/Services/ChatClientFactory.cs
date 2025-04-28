@@ -1,5 +1,4 @@
-﻿    
-using Azure.AI.OpenAI;
+﻿using Azure.AI.OpenAI;
 using Microsoft.Extensions.AI;
 using OpenAI;
 using Oqtane.Services;
@@ -10,11 +9,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Trifoia.Module.AIVideoCoach.Shared.Enums;
-using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
+using CodeChops.Module.AIVideoCoach.Shared.Enums;
+using CodeChops.Module.AIVideoCoach.Shared.Interfaces;
 
-
-namespace Trifoia.Module.AIVideoCoach.Services
+namespace CodeChops.Module.AIVideoCoach.Services
 {
     public class ChatClientFactory : IChatClientFactory<IChatClient>
     {

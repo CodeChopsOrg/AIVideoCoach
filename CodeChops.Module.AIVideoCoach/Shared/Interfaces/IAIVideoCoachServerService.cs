@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Trifoia.Module.AIVideoCoach.Models;
 
-namespace Trifoia.Module.AIVideoCoach.Services
+namespace CodeChops.Module.AIVideoCoach.Services
 {
     public interface IAIVideoCoachServerService
     {

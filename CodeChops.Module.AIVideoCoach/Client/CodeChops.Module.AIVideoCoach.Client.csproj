@@ -3,12 +3,12 @@
 	<PropertyGroup>
 		<TargetFramework>net9.0</TargetFramework>
 		<Version>1.0.0</Version>
-		<Authors>Trifoia</Authors>
-		<Company>Trifoia</Company>
-		<Description>Open source edition of the Trifoia AI Video Coach Oqtane Module</Description>
-		<Product>Trifoia.AIVideoCoach</Product>
-		<Copyright>Trifoia</Copyright>
-		<AssemblyName>Trifoia.Module.AIVideoCoach.Client.Oqtane</AssemblyName>
+		<Authors>CodeChops</Authors>
+		<Company>CodeChops</Company>
+		<Description>Open source edition of the CodeChops AI Video Coach Oqtane Module</Description>
+		<Product>CodeChops.AIVideoCoach</Product>
+		<Copyright>CodeChops</Copyright>
+		<AssemblyName>CodeChops.Module.AIVideoCoach.Client.Oqtane</AssemblyName>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 
@@ -31,7 +31,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Shared\Trifoia.Module.AIVideoCoach.Shared.csproj" />
+		<ProjectReference Include="..\Shared\CodeChops.Module.AIVideoCoach.Shared.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

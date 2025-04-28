@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Trifoia.Module.AIVideoCoach.Shared.Enums;
+using CodeChops.Module.AIVideoCoach.Shared.Enums;
 
-namespace Trifoia.Module.AIVideoCoach
+namespace CodeChops.Module.AIVideoCoach
 {
     public class SettingsViewModel
     {

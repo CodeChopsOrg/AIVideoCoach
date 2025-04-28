@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trifoia.Module.AIVideoCoach.Shared.Enums
+namespace CodeChops.Module.AIVideoCoach.Shared.Enums
 {
     public class AIVideoCoachCredentials
     {

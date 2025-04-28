@@ -4,10 +4,10 @@ using MudBlazor.Services;
 using Oqtane.Services;
 using Oqtane.Shared;
 using System.Net.Http;
-using Trifoia.Module.AIVideoCoach.Services;
-using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
+using CodeChops.Module.AIVideoCoach.Services;
+using CodeChops.Module.AIVideoCoach.Shared.Interfaces;
 
-namespace Trifoia.Module.AIVideoCoach.Client.Services
+namespace CodeChops.Module.AIVideoCoach.Client.Services
 {
     public class Startup : IClientStartup
     {

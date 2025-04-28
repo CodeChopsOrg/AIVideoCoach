@@ -8,13 +8,12 @@ using Oqtane.Services;
 using Oqtane.Models;
 using Oqtane.Shared;
 using System.Runtime.CompilerServices;
-using Trifoia.Module.AIVideoCoach.Services;
 using Microsoft.Extensions.Azure;
 using System.IO;
-using Trifoia.Module.AIVideoCoach.Models;
 using System.IO.Enumeration;
-using Trifoia.Module.AIVideoCoach;
-
+using CodeChops.Module.AIVideoCoach.Services;
+using CodeChops.Module.AIVideoCoach.Models;
+using CodeChops.Module.AIVideoCoach;
 
 namespace CodeChops.Module.AIVideoCoach
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trifoia.Module.AIVideoCoach.Models
+namespace CodeChops.Module.AIVideoCoach.Models
 {
     /// <summary>
     /// Chat with history.

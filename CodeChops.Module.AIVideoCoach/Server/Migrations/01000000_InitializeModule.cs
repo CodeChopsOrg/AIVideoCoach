@@ -2,8 +2,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Oqtane.Databases.Interfaces;
 using Oqtane.Migrations;
-using Trifoia.Module.AIVideoCoach.Migrations.EntityBuilders;
-using Trifoia.Module.AIVideoCoach.Repository;
+using CodeChops.Module.AIVideoCoach.Migrations.EntityBuilders;
+using CodeChops.Module.AIVideoCoach.Repository;
 
 namespace CodeChops.Module.AIVideoCoach.Migrations
 {

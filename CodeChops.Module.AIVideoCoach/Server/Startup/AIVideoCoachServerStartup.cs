@@ -5,14 +5,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Oqtane.Infrastructure;
 using Oqtane.Modules;
 using Oqtane.Repository;
-using Trifoia.Module.AIVideoCoach.Extensions;
-using Trifoia.Module.AIVideoCoach.Repository;
-using Trifoia.Module.AIVideoCoach.Services;
+using CodeChops.Module.AIVideoCoach.Extensions;
+using CodeChops.Module.AIVideoCoach.Repository;
+using CodeChops.Module.AIVideoCoach.Services;
 using Oqtane.Services;
 using OpenAI.Embeddings;
 using Microsoft.Extensions.AI;
-using Trifoia.Module.AIVideoCoach.Server.Services;
-using Trifoia.Module.AIVideoCoach.Shared.Interfaces;
+using CodeChops.Module.AIVideoCoach.Server.Services;
+using CodeChops.Module.AIVideoCoach.Shared.Interfaces;
 
 namespace CodeChops.Module.AIVideoCoach.Startup
 {

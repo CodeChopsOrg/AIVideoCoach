@@ -1,7 +1,7 @@
 using Microsoft.JSInterop;
 using System.Threading.Tasks;
 
-namespace Trifoia.Module.AIVideoCoach
+namespace CodeChops.Module.AIVideoCoach
 {
     public class Interop
     {
